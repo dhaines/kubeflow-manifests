@@ -4332,7 +4332,7 @@ data:
     # Percentage (0-1) of requests to trace
     sample-rate: "0.1"
 ---
-apiVersion: autoscaling/v2beta2
+apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: activator
@@ -4905,7 +4905,7 @@ spec:
   selector:
     role: domainmapping-webhook
 ---
-apiVersion: autoscaling/v2beta2
+apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
   name: webhook
