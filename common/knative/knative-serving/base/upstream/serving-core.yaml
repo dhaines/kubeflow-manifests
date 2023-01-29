@@ -5264,4 +5264,3 @@ metadata:
     app.kubernetes.io/name: knative-serving
     app.kubernetes.io/version: "1.2.5"
     serving.knative.dev/release: "v1.2.5"
----
